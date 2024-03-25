@@ -1,4 +1,5 @@
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+  console.log("Üzenet érkezett a popup-tól:", request);
   if (request.action === "clearData") {
       chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
           const tab = tabs[0];

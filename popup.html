@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Törlés</title>
+  <title>ClearData</title>
+  <link rel="stylesheet" href="css/all.min.css">
   <style>
-    /* Itt lehet stílusokat hozzáadni */
+    #swiftBody {
+      width: 250px !important;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    #descriptionText {
+      font-style: italic;
+    }
+    #extensionTitle {
+      font-size: 20px;
+      font-weight: bold;
+    }
   </style>
 </head>
+
 <body>
-  <button id="clearData"></button>
+  <div id="swiftBody">
+  <img src="./images/icon48.png" alt="logo">
+  <p><span id="extensionTitle">Swift Wipe</span>&nbsp;(<a href="https://github.com/cloudsteak/SwiftWipe" target="_blank"><i class="fa-solid fa-circle-question"></i></a>)</p>
+  <button id="clearData"><i class="fa-solid fa-trash"></i>&nbsp;&nbsp;<span data-i18n="clearDataButton"></span></button>
   <script src="popup.js"></script>
+  <p>
+    <label id="descriptionText" data-i18n="extensionDescription"></label>
+  </p>
+  
+
+  </div>
 </body>
+
 </html>

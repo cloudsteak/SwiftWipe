@@ -3,7 +3,7 @@
       "message": "SwiftWipe"
     },
     "extensionDescription": {
-      "message": "Swift Cookie Wipe helps you to delete cookies, session store for the actual website."
+      "message": "Swift Cookie Wipe deletes cookies, session store for the actual website. (Use only for your own risk!)"
     },
     "clearDataButton": {
       "message": "Clear Data"
