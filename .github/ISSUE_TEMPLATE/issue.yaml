@@ -1,8 +1,7 @@
 name: Issue or Question
 description: Issue or question about SwiftWipe Chrome extension
 title: "[SwiftWipe]: "
-labels: 
-  - question", "new", "issue"]
+labels: ["question", "new", "issue"]
 assignees:
   - the1bit
 body:
