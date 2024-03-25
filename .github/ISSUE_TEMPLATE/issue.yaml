@@ -1,0 +1,31 @@
+name: Issue or Question
+description: Issue or question about SwiftWipe Chrome extension
+title: "[SwiftWipe] "
+labels: ["question", "cloud", "issue", "swiftwipe"]
+assignees:
+  - the1bit
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reaching out to us! Please fill out the following information so we can help you as soon as possible.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Provide a detailed description of the issue or question.
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Topic
+      description: Which topic does your question or issue relate to?
+      options:
+        - General question
+        - Issue
+        - Specific question
+        - Feature request
+    validations:
+      required: true
+  
