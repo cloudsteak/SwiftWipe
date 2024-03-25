@@ -1,0 +1,11 @@
+{
+    "extensionName": {
+      "message": "SwiftWipe"
+    },
+    "extensionDescription": {
+      "message": "A Swift Cookie Wipe segít a cookie-k törlésében az aktuális webhelyen."
+    },
+    "clearDataButton": {
+      "message": "Adatok Törlése"
+    }
+  }

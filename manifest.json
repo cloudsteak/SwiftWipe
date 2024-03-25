@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Swift Wipe",
-  "description": "Swift Cookie Wipe helps you to delete cookies, session store for the actual website.",
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
   "version": "1.0",
-  "permissions": ["cookies", "storage", "activeTab"],
+  "default_locale": "en",
+  "permissions": ["cookies", "storage", "activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"
   },

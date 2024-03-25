@@ -1,20 +1,23 @@
-chrome.action.onClicked.addListener((tab) => {
-  const { id: tabId, url } = tab;
-  if (!url.startsWith('http')) {
-    console.log('Nem weboldal.');
-    return;
+chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+  if (request.action === "clearData") {
+      chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+          const tab = tabs[0];
+          chrome.cookies.getAll({url: tab.url}, function(cookies) {
+              cookies.forEach(function(cookie) {
+                  var url = "http" + (cookie.secure ? "s" : "") + "://" + cookie.domain + cookie.path;
+                  chrome.cookies.remove({url: url, name: cookie.name});
+              });
+          });
+
+          chrome.scripting.executeScript({
+              target: {tabId: tab.id},
+              function: clearSessionStorage
+          });
+      });
+
+      sendResponse({result: "success"});
   }
-
-  chrome.cookies.getAll({ url }, (cookies) => {
-    cookies.forEach(cookie => {
-      chrome.cookies.remove({ url: cookie.secure ? `https://${cookie.domain}${cookie.path}` : `http://${cookie.domain}${cookie.path}`, name: cookie.name });
-    });
-  });
-
-  chrome.scripting.executeScript({
-    target: { tabId },
-    function: clearSessionStorage
-  });
+  return true; // Async response
 });
 
 function clearSessionStorage() {
