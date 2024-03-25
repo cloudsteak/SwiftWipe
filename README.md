@@ -1,6 +1,6 @@
 # SwiftWipe
 
-!alt[SwiftWipe Logo](./images/icon128.png)
+![SwiftWipe Logo](./images/icon128.png)
 
 Swift Cookie Wipe extension for Chrome browser
 
