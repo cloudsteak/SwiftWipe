@@ -6,7 +6,7 @@
       "message": "A Swift Cookie Wipe kitörli az aktuális oldalhoz tarozó sütiket. (Csak saját felelősségre használható)"
     },
     "clearDataButton": {
-      "message": "Adatok Törlése"
+      "message": "Weboldal adatainak törlése"
     }
     
   }

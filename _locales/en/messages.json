@@ -6,7 +6,7 @@
       "message": "Swift Cookie Wipe deletes cookies, session store for the actual website. (Use only for your own risk!)"
     },
     "clearDataButton": {
-      "message": "Clear Data"
+      "message": "Clear Site Data"
     }
   }
   
