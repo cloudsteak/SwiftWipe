@@ -23,6 +23,11 @@ Swift Cookie Wipe extension for Chrome browser
 
 [Lisense](./LICENSE)
 
+
+## Privacy Policy
+
+[Privacy Policy](./privacy-policy.md)
+
 ## Support
 
 If you have any questions or need help with the extension, please open a new issue [here](https://github.com/cloudsteak/SwiftWipe/issues/new/choose)
