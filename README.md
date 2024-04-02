@@ -4,6 +4,9 @@
 
 Swift Cookie Wipe extension for Chrome browser
 
+## Release Notes
+
+You can find the release notes for the extension [here](./ReleaseNotes.md)
 
 ## Installation
 
@@ -21,7 +24,7 @@ Swift Cookie Wipe extension for Chrome browser
 
 ## License
 
-[Lisense](./LICENSE)
+[License](./LICENSE)
 
 
 ## Privacy Policy

@@ -7,6 +7,17 @@
     },
     "clearDataButton": {
       "message": "Weboldal adatainak törlése"
+    },
+    "confirmationMessage" : {
+      "message": "Biztosan törölni szeretné az oldalhoz tartozó sütiket?"
+    },
+    "clearSuccess":{ 
+      "message": "Sütik sikeresen törölve"
+    },
+    "clearFailure": {
+      "message": "Hiba történt a törlés során!"
+    },
+    "clearAbort": {
+      "message": "A törlés megszakítva."
     }
-    
   }

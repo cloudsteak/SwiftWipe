@@ -7,6 +7,18 @@
     },
     "clearDataButton": {
       "message": "Clear Site Data"
+    },
+    "confirmationMessage" : {
+      "message": "Are you sure you want to delete cookies for this site?"
+    },
+    "clearSuccess":{ 
+      "message": "Cookies has been deleted successfully"
+    },
+    "clearFailure": {
+      "message": "An error occurred while deleting"
+    },
+    "clearAbort": {
+      "message": "Deletion aborted"
     }
   }
   
