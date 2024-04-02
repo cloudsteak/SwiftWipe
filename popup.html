@@ -2,13 +2,14 @@
 <html>
 
 <head>
-  <title>ClearData</title>
+  <title>SwiftWipe</title>
   <link rel="stylesheet" href="css/all.min.css">
   <style>
     #swiftBody {
       width: 250px !important;
       text-align: center;
       border-radius: 10px;
+      vertical-align: top;
     }
 
     #descriptionText {
@@ -18,14 +19,30 @@
       font-size: 20px;
       font-weight: bold;
     }
+
+    #clearData{
+      height: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+      background-color: cornflowerblue;
+      color: white;
+      font-weight: 600;
+    }
+
+    #clearData:hover{
+      background-color: crimson;
+    }
   </style>
 </head>
 
 <body>
   <div id="swiftBody">
   <img src="./images/icon48.png" alt="logo">
-  <p><span id="extensionTitle">Swift Wipe</span>&nbsp;(<a href="https://github.com/cloudsteak/SwiftWipe" target="_blank"><i class="fa-solid fa-circle-question"></i></a>)</p>
-  <button id="clearData"><i class="fa-solid fa-trash"></i>&nbsp;&nbsp;<span data-i18n="clearDataButton"></span></button>
+  <p><span id="extensionTitle">Swift Wipe&nbsp;<span id="extensionVersion"></span>&nbsp;(<a href="https://github.com/cloudsteak/SwiftWipe" target="_blank"><i class="fa-solid fa-circle-question"></i></a>)</p>
+  <button id="clearData"><i class="fa-solid fa-trash"></i>&nbsp; &nbsp;&nbsp;<span data-i18n="clearDataButton"></span></button>
   <script src="popup.js"></script>
   <p>
     <label id="descriptionText" data-i18n="extensionDescription"></label>
